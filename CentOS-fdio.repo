@@ -1,0 +1,18 @@
+# CentOS-fdio.repo
+#
+# Please see http://wiki.centos.org/SpecialInterestGroup/NFV for more
+# information
+
+[centos-fdio]
+name=CentOS-$releasever - fd.io
+baseurl=http://mirror.centos.org/centos/$releasever/nfv/$basearch/fdio/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-NFV
+
+[centos-fdio-test]
+name=CentOS-$releasever - fd.io Testing
+baseurl=http://buildlogs.centos.org/centos/$releasever/nfv/$basearch/fdio/
+gpgcheck=0
+enabled=0
+
