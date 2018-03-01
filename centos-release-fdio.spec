@@ -27,7 +27,7 @@ install -D -m 644 %{SOURCE0} %{buildroot}%{_sysconfdir}/yum.repos.d/CentOS-fdio.
 %license COPYING
 
 %changelog
-* Thu Feb 28 2018 Thomas F Herbert <therbert AT redhat.com> - 1.0-2
+* Thu Mar 1 2018 Thomas F Herbert <therbert AT redhat.com> - 1.0-2
 - Add dependency on nfv common to install NFV RPM gpg key
 
 * Tue Feb 20 2018 Thomas F Herbert <therbert AT redhat.com> - 1.0-1
